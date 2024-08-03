@@ -1,0 +1,15 @@
+- id: fmt
+  description: Format (Rust)
+  name: Format (Rust)
+  entry: cargo fmt
+  language: system
+  pass_filenames: false
+  types: [rust]
+- id: clippy
+  verbose: true
+  description: Clippy (Rust)
+  name: Clippy (Rust)
+  entry: cargo clippy
+  language: system
+  types: [rust]
+  pass_filenames: false
